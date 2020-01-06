@@ -35,4 +35,4 @@ while True:
         if site['Site'] == '復興':
             sendmail(site['PM25'])
             break
-    time.sleep(5)
+    time.sleep(60*60)
