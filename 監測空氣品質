@@ -6,12 +6,12 @@ def sendmail(message):
     from email.mime.text import MIMEText 
     
      # 寄件者，收件者
-    from_addr = 'w1970590113@gmail.com'
-    to_addr = 's9923078@gmail.com'
+    from_addr = 'xxxxxxx@gmail.com'
+    to_addr = 'xxxxxxx@gmail.com'
 
 
     smtpssl=smtplib.SMTP_SSL("smtp.gmail.com", 465) 
-    smtpssl.login(from_addr, "w91122411")
+    smtpssl.login(from_addr, "xxxxxxx")
 
     msg = '復興PM25='+message
     mime=MIMEText(msg, "plain", "utf-8") 
